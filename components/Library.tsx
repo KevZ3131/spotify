@@ -67,7 +67,7 @@ const Library: React.FC<LibraryProps> = ({
              </div>
              <div className="
                 flex
-                glex-col
+                flex-col
                 gap-y-2
                 mt-4
                 px-3
