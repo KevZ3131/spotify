@@ -65,16 +65,17 @@ const PlayerContent: React.FC<PlayerContentProps> = ({ song, songUrl }) => {
     },
     onpause: () => setIsPlaying(false),
     format: ['mp3'],
-  });
+  }
+);
 
   useEffect(() => {
     sound?.play();
-
     return () => {
       sound?.unload();
     };
   }, [sound]);
 
+  
   const handlePlay = () => {
     if (!isPlaying) {
       play();
