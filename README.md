@@ -1,4 +1,26 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Spotify Clone
+
+A Spotify-inspired music streaming web app built with Next.js.
+
+## Tech Stack
+
+- **Framework:** Next.js (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Auth & Database:** Supabase (Auth + Postgres)
+- **Storage:** Supabase Storage (song files + images)
+- **UI:** Radix UI (Dialog/Modal), React Icons
+- **Forms & UX:** React Hook Form, React Hot Toast
+- **Audio:** use-sound
+
+## Features
+
+- User authentication (email magic link + GitHub OAuth)
+- Browse and play songs
+- Playback controls (play/pause, next/previous, volume, mute)
+- Like/unlike songs and view a dedicated **Liked Songs** page
+- Upload songs (MP3) with cover images
+- Responsive layout with sidebar navigation
 
 ## Getting Started
 
